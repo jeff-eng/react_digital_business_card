@@ -24,6 +24,9 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    max-width: 317px;
+    margin: auto;
+    background-color: var(--bg-dark);
 }
 
 .content {
@@ -39,7 +42,8 @@ a {
 }
 
 .info__profile-photo {
-    width: 100vw;
+    margin: auto;
+    max-width: 100%;
     border-radius: 10px 10px 0 0;
 }
 
