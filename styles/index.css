@@ -119,6 +119,10 @@ a {
     margin-top: 1em;
 }
 
+.info__portfolio-link, .footer__social-link {
+    transition: 0.5s ease-in-out;
+}
+
 .info__portfolio-link:hover {
     color: var(--subheading-orange-color);
 }
@@ -148,14 +152,13 @@ a {
     align-items: center;
     margin-top: auto;
     width: 100%;
-    border-radius: 0 0 6px 6px;
+    border-radius: 0 0 10px 10px;
 }
 
 .footer__social-link {
     padding: 0.25em;
     background-color: var(--bg-social-icon);
     border-radius: 2px;
-    transition: 0.5s ease-in-out;
 }
 
 .footer__social-link:hover {
